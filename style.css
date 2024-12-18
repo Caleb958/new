@@ -1,0 +1,71 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:cyan;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main Container */
+  .container {
+    text-align: center;
+    background:#fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Timer Display */
+  #timer {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  /* Input Section */
+  input {
+    width: 60px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: skyblue;
+    color: #171111;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color:cyan;
+    transform: scale(1.1);
+  }
+  
+  button:disabled {
+    background-color: #5e2929;
+    cursor: not-allowed;
+  }
+  
+  /* Footer Text */
+  footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #eeefef;
+  }

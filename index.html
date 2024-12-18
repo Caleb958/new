@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productivity Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Productivity Timer</h1>
+
+    <!-- Timer Display -->
+    <div id="timer">00:00</div>
+
+    <!-- Customization Section -->
+    <div class="inputs">
+      <label for="work-time">Work (min):</label>
+      <input type="number" id="work-time" placeholder="num" min="1">
+      <label for="break-time">Break (min):</label>
+      <input type="number" id="break-time" placeholder="num" min="1">
+    </div>
+
+    <!-- Control Buttons -->
+    <div class="controls">
+      <button id="start">Start</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</h
